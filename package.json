@@ -3,10 +3,11 @@
   "description": "Translation thingy",
   "homepage": "https://github.com/wille-io/webtr",
   "types": "dist/webtr.d.ts",
+  "main": "dist/webtr.mjs",
   "module": "dist/webtr.mjs",
   "browser": "dist/webtr.js",
   "type": "module",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "engines": {
     "node": ">=0.4.0"
   },
