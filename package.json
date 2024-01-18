@@ -1,0 +1,26 @@
+{
+  "name": "webtr",
+  "description": "Translation thingy",
+  "homepage": "https://github.com/wille-io/webtr",
+  "types": "webtr.d.ts",
+  "module": "webtr.mjs",
+  "browser": "webtr.js",
+  "type": "module",
+  "version": "0.1",
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "files": ["dist"],
+  "maintainers": [
+    {
+      "name": "Mike Wille",
+      "email": "mike@wille.io",
+      "web": "https://wille.io"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wille-io/webtr.git"
+  },
+  "license": "MIT"
+}

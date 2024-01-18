@@ -1,0 +1,19 @@
+{
+  "compilerOptions": 
+  {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "target": "es2017",
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    // "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "strict": true,
+    "noPropertyAccessFromIndexSignature": false, 
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "dist/",
+  },
+  "include": ["webtr.ts"],
+}

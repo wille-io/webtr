@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+
+tsc # webtr.d.ts
+
+DEF_ARGS="--sourcemap=external --tree-shaking=true --minify"
+esbuild --bundle webtr.ts --outfile=dist/webtr.js  ${DEF_ARGS} --platform=browser $@
+esbuild --bundle webtr.ts --outfile=dist/webtr.mjs ${DEF_ARGS} --platform=node --format=esm $@
